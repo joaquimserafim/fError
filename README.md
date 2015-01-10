@@ -18,7 +18,3 @@ the output shows the string/value *('The name I want')* we used for the error na
     The name I want: some nasty error
         at /Users/quim/Projects/opensource/ferror/index.js:27:12
         at Test.<anonymous> (/Users/quim/Projects/opensource/ferror/test.js:15:15)
-        at Test.bound [as _cb] (/Users/quim/Projects/opensource/ferror/node_modules/tape/lib/test.js:59:32)
-        at Test.run (/Users/quim/Projects/opensource/ferror/node_modules/tape/lib/test.js:72:10)
-        at Test.bound [as run] (/Users/quim/Projects/opensource/ferror/node_modules/tape/lib/test.js:59:32)
-        at Object.next [as _onImmediate] (/Users/quim/Projects/opensource/ferror/node_modules/tape/lib/results.js:66:15)
