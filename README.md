@@ -13,7 +13,7 @@
 
     var error = fError('some nasty error');
 
-**the output shows the string/value ('The name I want') we used for the error name & shows only the stack we need to see**    
+the output shows the string/value *('The name I want')* we used for the error name & shows only the stack we need to see
 
     The name I want: some nasty error
         at /Users/quim/Projects/opensource/ferror/index.js:27:12

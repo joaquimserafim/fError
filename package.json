@@ -1,6 +1,6 @@
 {
   "name": "ferror",
-  "version": "0.0.0",
+  "version": "1.0.0",
   "description": "a nice way to create errors that shows only what matters",
   "main": "index.js",
   "scripts": {
@@ -28,8 +28,15 @@
   },
   "keywords": [
     "errors",
-    "format"
+    "format",
+    "stack"
   ],
   "author": "@joaquimserafim",
-  "license": "ISC"
+  "license": "ISC",
+  "pre-commit": [
+    "jshint",
+    "codestyle",
+    "test",
+    "check-coverage"
+  ]
 }
