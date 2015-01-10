@@ -12,7 +12,7 @@ chain.filter.attach(function(error, frames) {
   });
 });
 
-function fError(name, message) {
+function FError(name, message) {
   Error.call(this);
   Error.captureStackTrace(this, this.constructor);
   this.name = util.format('%s', name);
@@ -20,10 +20,10 @@ function fError(name, message) {
   this.message = message;
 }
 
-util.inherits(fError, Error);
+util.inherits(FError, Error);
 
 module.exports = function(name) {
   return function(message) {
-    return new fError(name, message);
+    return new FError(name, message);
   };
 };
