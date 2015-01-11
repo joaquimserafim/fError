@@ -18,3 +18,5 @@ the output shows the string/value *('The name I want')* we used for the error na
     The name I want: some nasty error
         at /Users/quim/Projects/opensource/ferror/index.js:27:12
         at Test.<anonymous> (/Users/quim/Projects/opensource/ferror/test.js:15:15)
+
+see the example file for more info
