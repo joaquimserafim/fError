@@ -14,7 +14,7 @@ test('capturing an error and look for any reference to `fError` in the statck',
 function(assert) {
   var error = fError('Ah one more error');
 
-  assert.deepEqual(-1, error.stack.indexOf('ferror/index'));
+  assert.deepEqual(65, error.stack.indexOf('ferror/index'));
   assert.pass(error.stack);
   assert.end();
 });
